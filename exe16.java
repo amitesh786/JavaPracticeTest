@@ -18,11 +18,8 @@ class exe16 {
 
         String from = str.nextLine();
         out.println("Enter String to from: " + from);
-        // char from = 'a';
         String to = str.nextLine();
-
         out.println("Enter String to to: " + to);
-        // char to = 's';
 
         String repl = replace(input , from, to);
         out.println("New String: " + repl)

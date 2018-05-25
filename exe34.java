@@ -14,10 +14,6 @@ class exe34 {
 
     // Driver method
     public static void main(String[] args) {
-
-        // Scanner input = new Scanner(System.in);
-        // Integer arr = input.nextInt();
-
         int[] arr = { 10, 20, 31, 41};
         int sumEven = 0, sumOdd = 0;
 
@@ -30,9 +26,6 @@ class exe34 {
                 arr[i] = 
                 sumOdd +=1;
             }
-            // else {
-            //     sumEven +=1;
-            // }
         }
 
         out.println("Output : " + " \n Number Even - " + sumEven + " \n Number Odd - " + sumOdd );        

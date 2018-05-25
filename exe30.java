@@ -9,15 +9,11 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
-// Java program for implementation of Insertion Sort
+// Java program for implementation
 class exe30 {
 
     // Driver method
     public static void main(String[] args) {
-
-        // Scanner input = new Scanner(System.in);
-        // String test1 = input.nextLine();
-        // out.println("Enter the string: " + test1);
 
         int[] arr = {200, 130, 40};
         out.print("Enter the string: ");

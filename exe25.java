@@ -45,9 +45,7 @@ class exe25 {
     public static void main(String args[]) {
 
         int arr[] = {12, 11, 13, 5, 6, 112, 11};
-        // BufferedReader R = new BufferedReader(new InputStreamReader(System.in));
-        // int arraySize = Integer.parseInt(R.readLine());
-
+        
         Scanner R = new Scanner(System.in);
         int arraySize = Integer.parseInt(R.nextLine());
 

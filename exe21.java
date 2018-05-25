@@ -12,9 +12,6 @@ class exe21 {
         
         Scanner input = new Scanner(System.in);
         String word = input.nextLine();
-
-        // out.println(new StringBuilder(str).reverse().toString());
-
         word = word.trim();
         
         String result = ""; 

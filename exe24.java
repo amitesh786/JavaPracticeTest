@@ -37,10 +37,8 @@ public class exe24 {
         if (A.length > 1) {
             int q = A.length/2;
 
-            //changed range of leftArray from 0-to-q to 0-to-(q-1)
             int[] leftArray = Arrays.copyOfRange(A, 0, q-1);
-
-            //changed range of rightArray from q-to-A.length to q-to-(A.length-1)
+            
             int[] rightArray = Arrays.copyOfRange(A, q, A.length-1);
 
             mergeSort(leftArray);

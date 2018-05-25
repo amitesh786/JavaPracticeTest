@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
-// Java program for implementation of Insertion Sort
+// Java program for implementation
 class exe31 {
 
     // Driver method
