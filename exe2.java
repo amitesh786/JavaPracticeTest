@@ -10,14 +10,6 @@ class exe2 {
         Scanner test = new Scanner(System.in);
 
         System.out.println("Test Data: ");
-        // System.out.println("Input number: ");
-
-        // for(int i=1; i<=10; i++) {
-        //     System.out.println("Output: ");
-
-        //     System.out.println(input1 + " * " + i + " = " + (input1 * i) );
-        // }
-
         System.out.println("Radius:" + " = " + input1);
 
         double d1 = Math.PI * input1 * input1;

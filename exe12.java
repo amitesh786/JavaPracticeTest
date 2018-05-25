@@ -12,28 +12,9 @@ class exe12 {
 
 	public static void main (String[] args) throws java.lang.Exception {
 
-        // Console cnsl = null;
         Console cons = null;
         String name = null;
         
-        // try {
-        //     // creates a console object
-        //     cnsl = System.console();
-
-        //     // if console is not null
-        //     if (cnsl != null) {
-
-        //         // read line from the user input
-        //         name = cnsl.readLine("Name: ");
-
-        //         // prints
-        //         out.println("Name entered : " + name);
-        //     }
-        // } catch(Exception ex) {            
-        //     // if any error occurs
-        //     ex.printStackTrace();      
-        // }
-
         if ((cons = System.console()) != null) {
 
 			char[] pass_ward = null;

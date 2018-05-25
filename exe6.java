@@ -24,9 +24,7 @@ class exe6 {
             input1 /= 10;
             p1++;
         }
-
         int store1 = decimal1;
-        // int store1 = Integer.parseInt(input1, 2);
 
         out.println("Enter second binary number: ");
         int input2 = test.nextInt();
@@ -39,10 +37,7 @@ class exe6 {
             input2 /= 10;
             p2++;
         }
-        
         int store2 = decimal2;
-
-        // int store2 = Integer.parseInt(input2, 2);
 
         int add = store1 + store2;
         int mul = store1 * store2;

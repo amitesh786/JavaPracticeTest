@@ -6,14 +6,7 @@ class exe1 {
 
 	public static void main (String[] args) throws java.lang.Exception {
         
-        // System.out.println("Hello \nAmitesh");
-        // int test1 = (-5 + 8 * 6);
-        // int test2 = ((55+9) % 9);
-        // int test3 = (20 + -3*5 / 8);
-        // int test4 = (5 + 15 / 3 * 2 - 8 % 3);
-        // System.out.println("Test Data : \n-5 + 8 * 6" + "\nExpected Output :\n" + test1 + "\n" + test2 + "\n" + test3 + "\n" + test4 );
         Scanner test = new Scanner(System.in);
-
         System.out.println("Test Data: ");
         System.out.println("Input first number: ");
         int input1 = test.nextInt();

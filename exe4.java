@@ -14,10 +14,6 @@ class exe4 {
     int input2 = test.nextInt();
     int input3;
 
-    // input3 = input1;
-    // input1 = input2;
-    // input2 = input3;
-
     input1 = input1 + input2;
     input2 = input1 - input2;    
     input1 = input1 - input2;

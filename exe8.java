@@ -15,19 +15,6 @@ class exe8 {
 
         out.println("Enter first number: ");
         long input1 = test.nextLong();
-
-        // out.println("Enter second number: ");
-        // int input2 = test.nextInt();
-
-        // if (input1 != input2 ) {
-        //     out.println(input1 + " != " + input2);
-        // }
-        // if (input1 < input2 ) {
-        //     out.println(input1 + " < " + input2);
-        // }
-        // if (input1 <= input2 ) {
-        //     out.println(input1 + " <= " + input2);
-        // }
         long sum = 0;
 
         while (input1 != 0) {

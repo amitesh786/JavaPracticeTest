@@ -15,17 +15,10 @@ class exe13 {
 	public static void main (String[] args) throws java.lang.Exception {
 
         out.println("/home/students/abc.txt  : " + new File("abc.txt").length() + " bytes");
-
         Date d1 = new java.util.Date();
-
-        // System d2 = System.currentTimeMillis();
-        
-        // Calendar d3 = Calendar.getInstance();
 
         out.format("\nCurrent Date time: %tc%n \n", System.currentTimeMillis());
 
         out.println(d1 + "\n");
-        // out.println(d2 + "\n");
-        // out.println(d3 + "\n");
 	}
 }
