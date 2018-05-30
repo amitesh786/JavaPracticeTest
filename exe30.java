@@ -9,9 +9,7 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
-// Java program for implementation
 class exe30 {
-
     // Driver method
     public static void main(String[] args) {
 

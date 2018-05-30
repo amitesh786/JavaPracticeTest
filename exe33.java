@@ -11,17 +11,14 @@ import java.util.Arrays;
 
 // Java program for implementation of Insertion Sort
 class exe33 {
-
     // Driver method
     public static void main(String[] args) {
-
         long startTime = System.nanoTime(); 
         out.println ("The first 10 natural numbers are:\n");
-
+        
         for (int i=1; i<=10; i++) {
             out.println(i);
         }
-        
         long estimatedTime = System.nanoTime() - startTime;
         out.println("Estimated time (in nanoseconds) to get the first 10 natural numbers: "+estimatedTime);   
 	}

@@ -9,13 +9,11 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
-// Java program for implementation
 class exe32 {
-
     // Driver method
     public static void main(String[] args) {
-        out.println(System.getSecurityManager());
 
+        out.println(System.getSecurityManager());
         out.println("\nCurrent system environment:");
         out.println(System.getenv());	 
         out.println("\n\nCurrent system properties:");
@@ -32,7 +30,5 @@ class exe32 {
         // gets the value of the specified environment variable "USERNAME"
         out.println("\nEnvironment variable USERNAME: ");
         out.println(System.getenv("USERNAME"));
-
 	}
-
 }

@@ -9,12 +9,9 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
-// Java program for implementation
 class exe31 {
-
     // Driver method
     public static void main(String[] args) {
-
         int[] arr1 = {20, 30, 40};
         out.print("Enter the array1: ");
 
@@ -22,13 +19,13 @@ class exe31 {
             out.print(arr1[i] + ", ");
         }
         out.println(" ");
-
         int[] arr2 = {20, 30, 40};
         out.print("Enter the array2: ");
 
         for (int i=0; i< arr2.length; i++) {
             out.print(arr2[i] + ", ");
         }
+        
         out.println(" ");
         int temp;
         for (int i=0; i< arr1.length; i++) {

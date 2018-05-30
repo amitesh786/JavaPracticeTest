@@ -11,12 +11,10 @@ import java.util.Arrays;
 
 // Java program for implementation array
 class exe34 {
-
     // Driver method
     public static void main(String[] args) {
         int[] arr = { 10, 20, 31, 41};
         int sumEven = 0, sumOdd = 0;
-
         out.println("Original Array: "+Arrays.toString(arr));
 
         for (int i=0; i<arr.length; i++) {
@@ -27,7 +25,6 @@ class exe34 {
                 sumOdd +=1;
             }
         }
-
         out.println("Output : " + " \n Number Even - " + sumEven + " \n Number Odd - " + sumOdd );        
         
 	}
