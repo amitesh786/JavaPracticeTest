@@ -10,6 +10,7 @@ import java.io.*;
 import java.util.Arrays;
 
 class exe32 {
+    
     // Driver method
     public static void main(String[] args) {
 

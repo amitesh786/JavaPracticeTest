@@ -19,6 +19,7 @@ class exe33 {
         for (int i=1; i<=10; i++) {
             out.println(i);
         }
+        
         long estimatedTime = System.nanoTime() - startTime;
         out.println("Estimated time (in nanoseconds) to get the first 10 natural numbers: "+estimatedTime);   
 	}

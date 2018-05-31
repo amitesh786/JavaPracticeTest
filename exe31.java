@@ -10,6 +10,7 @@ import java.io.*;
 import java.util.Arrays;
 
 class exe31 {
+    
     // Driver method
     public static void main(String[] args) {
         int[] arr1 = {20, 30, 40};

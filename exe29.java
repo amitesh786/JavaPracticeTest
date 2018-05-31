@@ -11,6 +11,7 @@ import java.io.*;
 import java.util.Arrays;
 
 class exe29 {
+    
     // Driver method
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
