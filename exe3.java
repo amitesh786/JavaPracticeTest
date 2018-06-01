@@ -10,15 +10,12 @@ class exe3 {
         double x = 1;
         Scanner test = new Scanner(System.in);
         int n = test.nextInt();
-
         while (x <= n) {
             System.out.println("Input number " + "("+ (int) x +")" + ":");
             num += test.nextInt();
             x += 1;
         }
         double avgn = (num / n);
-
         System.out.println("Average:" + avgn);
-
 	}
 }

@@ -16,7 +16,5 @@ class exe19 {
             }
         }
         out.println(counter);
-
     }
-
 }

@@ -16,9 +16,7 @@ class exe13 {
 
         out.println("/home/students/abc.txt  : " + new File("abc.txt").length() + " bytes");
         Date d1 = new java.util.Date();
-
         out.format("\nCurrent Date time: %tc%n \n", System.currentTimeMillis());
-
         out.println(d1 + "\n");
 	}
 }

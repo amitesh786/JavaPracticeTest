@@ -8,9 +8,7 @@ public class exe14 {
 
 		SimpleDateFormat cdt = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss.SSS");
 		cdt.setCalendar(Calendar.getInstance(TimeZone.getTimeZone("GMT")));
-		
 		System.out.println("\nNow: "+cdt.format(System.currentTimeMillis()));
-
 	}
 }
 

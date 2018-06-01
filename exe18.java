@@ -9,7 +9,6 @@ import java.lang.Integer;
 class exe18 {
 
 	public static void main (String[] args) throws java.lang.Exception {
-
         Scanner in = new Scanner(System.in);
         System.out.print("Input seconds: ");
 		int seconds = in.nextInt(); 
@@ -18,10 +17,8 @@ class exe18 {
         int p3 = p2 % 60;
         p2 = p2 / 60;
         System.out.print( p2 + ":" + p3 + ":" + p1);
-		System.out.print("\n");        
-
+		System.out.print("\n");
     }
-
     public static boolean checkNum(int a, int b, int c) {
         return ( (a+b) == c );
     }
