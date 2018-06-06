@@ -9,6 +9,7 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
+// Array first and last number should be equal
 class exe38 {
     public static void main(String[] args) {
 
@@ -16,19 +17,15 @@ class exe38 {
         out.println("Enter the array: " + Arrays.toString(arr));
         int result = 1;
         int first, last;
-            
         if(arr.length != 0) {
             first = arr[0];
             last = arr[arr.length - 1];
-
             out.println("First: " + first);
             out.println("Last: " + last);
-
             if(first == last) {
                 result = 0;
             }
         }
-
         if(result == 0) {
             out.println("Array: " + "true");
         } else {

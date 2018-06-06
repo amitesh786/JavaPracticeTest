@@ -9,6 +9,7 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
+// Array should be true
 class exe39 {
     public static void main(String[] args) {
 
@@ -16,10 +17,8 @@ class exe39 {
         out.println("Enter the array: " + Arrays.toString(arr));
         int result = 1;
         int[] strArr = new int[arr.length];
-            
         for(int i=0; i<arr.length; i++) {
             strArr[i] = arr[i];
-
             for(int j=1; j<i; j++) {
                 strArr[i] = strArr[i] + 1;
                 if(strArr[i] == strArr[j]){
@@ -27,7 +26,6 @@ class exe39 {
                 }
             }
         }
-
         if(result == 0) {
             out.println("Array: " + "true");
         } else {

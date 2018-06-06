@@ -9,17 +9,15 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
+// Sum and made into single digits
 class exe41 {
     public static void main(String[] args) {
-
         int n = 895;
         int sum = 0;
-
         while(n > 0) {
             sum = sum + (n%10);
             n = n/10;
         }
-
         if(sum >= 10) {
             n = sum;
             sum = 0;
@@ -28,7 +26,6 @@ class exe41 {
                 n = n/10;
             }
         }
-        out.println("Add: " + sum);
-        
+        out.println("Add: " + sum);        
 	}
 }

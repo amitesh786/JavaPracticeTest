@@ -16,7 +16,6 @@ class exe40 {
         out.println("Enter the array: " + Arrays.toString(arr));
         int result = 1;
         int[] strArr = new int[arr.length];
-
         int n = arr.length;
         int i = 0;
         while(n > 0) {
@@ -32,7 +31,6 @@ class exe40 {
             i++;
             n--;
         }
-
         if(result == 0) {
             out.println("Array: " + "true");
         } else {
