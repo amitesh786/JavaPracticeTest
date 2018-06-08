@@ -7,7 +7,6 @@ import java.lang.Number;
 import java.lang.Integer;
 
 class exe16 {
-
 	public static void main (String[] args) throws java.lang.Exception {
         Scanner str = new Scanner(System.in);
         String input = str.nextLine();
@@ -19,7 +18,6 @@ class exe16 {
         String repl = replace(input , from, to);
         out.println("New String: " + repl)
 	}
-
     private static String replace(String input, String from, String to) {        
         StringBuffer result = new StringBuffer(input.length());
         for(int i=0; i<input.length(); i++) {

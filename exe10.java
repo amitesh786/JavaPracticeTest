@@ -8,9 +8,7 @@ import java.lang.Number;
 import java.lang.Integer;
 
 class exe10 {
-
 	public static void main (String[] args) throws java.lang.Exception {
-       
         Scanner test = new Scanner(System.in);
         out.println("Enter string : ");
         String str = test.nextLine();

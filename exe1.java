@@ -10,10 +10,8 @@ class exe1 {
         System.out.println("Test Data: ");
         System.out.println("Input first number: ");
         int input1 = test.nextInt();
-
         System.out.println("Input second number: ");
         int input2 = test.nextInt();
-
         int add = input1 + input2;
         int sub = input1 - input2;
         int mul = input1 * input2;
@@ -25,6 +23,5 @@ class exe1 {
         System.out.println("Output Mul: " + mul);
         System.out.println("Output Div: " + div);
         System.out.println("Output Mod: " + mod);
-
 	}
 }

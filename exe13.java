@@ -11,9 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 class exe13 {
-
 	public static void main (String[] args) throws java.lang.Exception {
-
         out.println("/home/students/abc.txt  : " + new File("abc.txt").length() + " bytes");
         Date d1 = new java.util.Date();
         out.format("\nCurrent Date time: %tc%n \n", System.currentTimeMillis());

@@ -7,7 +7,6 @@ import java.lang.Number;
 import java.lang.Integer;
 
 class exe21 {
-
 	public static void main (String[] args) throws java.lang.Exception {        
         Scanner input = new Scanner(System.in);
         String word = input.nextLine();

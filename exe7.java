@@ -8,9 +8,7 @@ import java.lang.Number;
 import java.lang.Integer;
 
 class exe7 {
-
 	public static void main (String[] args) throws java.lang.Exception {
-       
         System.out.println("\nJava Version: "+System.getProperty("java.version"));
         System.out.println("Java Runtime Version: "+System.getProperty("java.runtime.version"));
         System.out.println("Java Home: "+System.getProperty("java.home"));

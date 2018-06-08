@@ -7,7 +7,6 @@ import java.lang.Number;
 import java.lang.Integer;
 
 class exe18 {
-
 	public static void main (String[] args) throws java.lang.Exception {
         Scanner in = new Scanner(System.in);
         System.out.print("Input seconds: ");

@@ -3,9 +3,7 @@ import java.lang.*;
 import java.io.*;
 
 class exe3 {
-
 	public static void main (String[] args) throws java.lang.Exception {
-        
         double num = 0;
         double x = 1;
         Scanner test = new Scanner(System.in);
