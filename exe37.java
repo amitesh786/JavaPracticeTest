@@ -11,7 +11,6 @@ import java.util.Arrays;
 
 class exe37 {
     public static void main(String[] args) {
-
         int[] arr = {11, 1, 13, 10, 15, 40, 30, 33, 44};
         out.println("Enter the array: " + Arrays.toString(arr));
         int indexOfArr = 0;

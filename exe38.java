@@ -12,7 +12,6 @@ import java.util.Arrays;
 // Array first and last number should be equal
 class exe38 {
     public static void main(String[] args) {
-
         int[] arr = {11, 1, 13, 10, 15, 40, 30, 33, 112, 11};
         out.println("Enter the array: " + Arrays.toString(arr));
         int result = 1;

@@ -19,7 +19,6 @@ class exe25 {
         {
             int key = arr[i];
             int j = i-1;
- 
             /* Move elements of arr[0..i-1], that are
                greater than key, to one position ahead
                of their current position */
@@ -43,22 +42,16 @@ class exe25 {
  
     // Driver method
     public static void main(String args[]) {
-
         int arr[] = {12, 11, 13, 5, 6, 112, 11};
-        
         Scanner R = new Scanner(System.in);
         int arraySize = Integer.parseInt(R.nextLine());
-
         int[] inputArray = new int[arraySize];
         for (int i = 0; i < arraySize; i++) {
             inputArray[i] = Integer.parseInt(R.nextLine());
             out.println(inputArray[i] + "\n");
         }
-
         exe25 ob = new exe25();
         ob.sort(arr);
         printArray(arr);
-
-
     }
 }

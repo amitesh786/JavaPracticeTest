@@ -12,7 +12,6 @@ import java.util.Arrays;
 // Array search element is matched or not
 class exe36 {
     public static void main(String[] args) {
-
         int[] arr = {11, 1, 13, 15, 40, 30};
         int result = 1;
         out.println("Enter the array: " + Arrays.toString(arr));

@@ -11,7 +11,6 @@ import java.util.Arrays;
 
 // Java program for implementation array
 class exe34 {
-
     public static void main(String[] args) {
         int[] arr = { 10, 20, 31, 41};
         int sumEven = 0, sumOdd = 0;
