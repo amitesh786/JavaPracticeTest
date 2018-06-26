@@ -26,6 +26,6 @@ class exe41 {
                 n = n/10;
             }
         }
-        out.println("Add: " + sum);        
+        out.println("Add: " + sum);
 	}
 }
